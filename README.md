@@ -15,10 +15,11 @@ I added a GUI to tweak the below configurations, and implemented a serial comman
 Lunar uses screen capture + YOLO object detection to locate enemies in real-time.
 
 > It doesn’t touch memory or inject code — think of it as a robot that watches your screen and gives you precise X,Y coordinates of targets.
- Preconfigured for **Fortnite** — some sensitivity tuning may be needed for other games.
+ Preconfigured for **Fortnite** — some sensitivity tuning may be needed for other games like Apex Legends, Call of Duty etc.
 
-**Summary**
-For more details open Configuration file
+## **Summary**
+#### For more details open Configuration file
+
 🎯 **Aiming & Movement Parameters**
 
 🧠 **Model Detection Parameters**
@@ -26,8 +27,6 @@ For more details open Configuration file
 🖱️ **Input Timing and Control**
 
 🔌 **Hardware / Serial Communication**
-
-
 
 ---
 

@@ -1,0 +1,16 @@
+{
+  "xy_sens": 30.0,
+  "targeting_sens": 30.0,
+  "xy_scale": 30.0,
+  "targeting_scale": 0.4,
+  "pixel_increment": 1.0,
+  "mouse_delay": 0.0,
+  "aim_height": 4,
+  "confidence": 0.4,
+  "iou": 0.45,
+  "use_trigger_bot": false,
+  "serial_port": "COM2",
+  "serial_baudrate": 115200,
+  "serial_timeout": 1,
+  "debug_mode": true
+}

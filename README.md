@@ -1,12 +1,35 @@
-# ⚠️ Educational / Research Use Only
-
-**THIS PROJECT IS FOR EDUCATIONAL & RESEARCH PURPOSES ONLY.**  
-Do **not** use this software to gain unfair advantage in online games or to violate game Terms of Service. The authors are not responsible for any consequences (account bans, legal claims, or other damages) resulting from misuse.
-
-If youʼre interested in building vision/ML systems for legitimate purposes (accessibility tools, research, security testing with explicit permission), check the links below.
-
 # 🧠 YoloV12 AI Aimbot - Lunar LITE
-I added a GUI to tweak the below configurations, and implemented a serial command so you can integrate it with a microcontroller (ESP32 is a great model)
+
+**Lunar LITE** is built on top of the original [Lunar](https://github.com/zeyad-mansour/lunar) project.
+
+It features an updated triggerbot, modernized packages, and YOLOv12 support.
+
+<div align="center">
+
+<img src="https://ucarecdn.com/a90b3848-a54f-42ff-beab-6c07b5693a73/downloads.svg" alt="downloads" /><br>
+<a href="https://discord.gg/aiaimbot">
+  <img src="https://ucarecdn.com/50ea9c7c-7384-45bf-b8ee-1f8826b71bdd/lunar1.svg" alt="Join Discord" />
+</a>
+
+</div>
+
+---
+
+## 🚀 Lunar V2 (Premium)
+
+**Lunar V2** includes:
+
+- ✅ 25+ customizable settings  
+- ✅ Built-in UI  
+- ✅ Improved detection accuracy  
+- ✅ Supports **YOLOv8**, **YOLOv10**, **YOLOv12**, and **TensorRT**  
+- ✅ Xbox controller support
+- ✅ Logitech GHUB mouse input
+- ✅ Works on AMD and NVIDIA graphics cards
+
+[Download Lunar V2](https://gannonr.com/lunar)
+
+![Lunar V2 UI](https://github.com/user-attachments/assets/173ace44-2a46-45a3-aeba-5c2ce9c9e7b4)
 
 ---
 
@@ -15,18 +38,8 @@ I added a GUI to tweak the below configurations, and implemented a serial comman
 Lunar uses screen capture + YOLO object detection to locate enemies in real-time.
 
 > It doesn’t touch memory or inject code — think of it as a robot that watches your screen and gives you precise X,Y coordinates of targets.
- Preconfigured for **Fortnite** — some sensitivity tuning may be needed for other games like Apex Legends, Call of Duty etc.
 
-## **Summary**
-#### For more details open Configuration file
-
-🎯 **Aiming & Movement Parameters**
-
-🧠 **Model Detection Parameters**
-
-🖱️ **Input Timing and Control**
-
-🔌 **Hardware / Serial Communication**
+🎯 Preconfigured for **Fortnite** — some sensitivity tuning may be needed for other games.
 
 ---
 
@@ -43,9 +56,6 @@ Lunar LITE works with:
 ![Thumbnail](https://github.com/user-attachments/assets/afa30dd2-8168-4c64-999e-bedb0bef4dec)
 
 ---
-
-
-
 
 <details>
 <summary>📦 <strong>Installation</strong></summary>
@@ -102,4 +112,9 @@ python lunar.py collect_data
 
 ---
 
+## 💬 Discord Support
 
+Support is only **guaranteed** for **Lunar V2**.  
+Please don’t expect full help for the free **LITE** version.
+
+👉 [Join our Discord](https://discord.gg/aiaimbot)

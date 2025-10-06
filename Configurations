@@ -1,0 +1,121 @@
+Summary 🎯 Aiming & Movement Parameters
+
+targeting_scale — Controls how aggressively the crosshair moves toward the target.
+
+Higher → faster and more aggressive.
+
+Example: "targeting_scale": 0.4 (default is 10.0 if undefined in code).
+
+pixel_increment — Minimum step size per frame when moving the crosshair.
+
+Prevents zero-movement microsteps.
+
+Larger = coarser, smaller = smoother.
+
+🧠 Model Detection Parameters
+
+aim_height — Vertical aiming offset (divisor).
+
+Adjusts where within the bounding box the crosshair aims (e.g., head vs torso).
+
+Larger number → higher aim point (closer to top).
+
+confidence — Minimum YOLO detection confidence.
+
+Lower value detects more objects but increases false positives.
+
+Typical range: 0.25–0.6.
+
+iou — Intersection-over-Union threshold for overlapping boxes.
+
+Higher = stricter filtering of duplicate detections.
+
+🖱️ Input Timing and Control
+
+mouse_delay — Delay between incremental mouse movements (seconds).
+
+Higher = smoother but slower.
+
+Default in code: 0.0009; in your JSON: 0.0 (fastest possible).
+
+use_trigger_bot — Automatically fires when target is locked.
+
+true → script calls left_click() when crosshair overlaps target.
+
+false → disables auto-shoot.
+
+debug_mode — Verbose console output for debugging.
+
+If true, prints every movement, reload, and left-click to console.
+
+Useful for testing but slows down the loop.
+
+🎯** Aiming & Movement Parameters**
+
+targeting_scale — Controls how aggressively the crosshair moves toward the target.
+
+Higher → faster and more aggressive.
+
+Example: "targeting_scale": 0.4 (default is 10.0 if undefined in code).
+
+pixel_increment — Minimum step size per frame when moving the crosshair.
+
+Prevents zero-movement microsteps.
+
+Larger = coarser, smaller = smoother.
+
+🧠 Model Detection Parameters
+
+aim_height — Vertical aiming offset (divisor).
+
+Adjusts where within the bounding box the crosshair aims (e.g., head vs torso).
+
+Larger number → higher aim point (closer to top).
+
+confidence — Minimum YOLO detection confidence.
+
+Lower value detects more objects but increases false positives.
+
+Typical range: 0.25–0.6.
+
+iou — Intersection-over-Union threshold for overlapping boxes.
+
+Higher = stricter filtering of duplicate detections.
+
+🖱️ Input Timing and Control
+
+mouse_delay — Delay between incremental mouse movements (seconds).
+
+Higher = smoother but slower.
+
+Default in code: 0.0009; in your JSON: 0.0 (fastest possible).
+
+use_trigger_bot — Automatically fires when target is locked.
+
+true → script calls left_click() when crosshair overlaps target.
+
+false → disables auto-shoot.
+
+debug_mode — Verbose console output for debugging.
+
+If true, prints every movement, reload, and left-click to console.
+
+Useful for testing but slows down the loop.
+
+🔌 Hardware / Serial Communication
+
+serial_port — Serial port used to send movement/click commands.
+
+Must match your ESP32 or microcontroller COM port.
+
+Example: "COM2". You can change this to any available port.
+
+serial_baudrate — Communication speed in bits per second.
+
+Must match your firmware (ESP32 side).
+
+Default: 115200.
+
+serial_timeout — Seconds before serial read/write timeout.
+
+Typically 1 is fine; not critical unless reading responses.

@@ -1,14 +1,17 @@
 # 🧠 YoloV12 AI Aimbot - Lunar LITE
+# ⚠️ Educational / Research Use Only
 
+**THIS PROJECT IS FOR EDUCATIONAL & RESEARCH PURPOSES ONLY.**  
+Do **not** use this software to gain unfair advantage in online games or to violate game Terms of Service. The authors are not responsible for any consequences (account bans, legal claims, or other damages) resulting from misuse.
 
+If youʼre interested in building vision/ML systems for legitimate purposes (accessibility tools, research, security testing with explicit permission)
 
 It features an updated triggerbot, modernized packages, and YOLOv12 support.
 
 ---
 
 ## 🚀 Lunar V2 
-
-
+This build supports Microcontrollers to pass your mouse commands via serial. ESP32 are a great choice.
 ---
 
 ## ❓ What Is an AI Aimbot?

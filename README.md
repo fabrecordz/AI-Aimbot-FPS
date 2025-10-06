@@ -52,6 +52,7 @@ Lunar LITE works with:
     ```
 
 </details>
+<img width="1032" height="534" alt="image" src="https://github.com/user-attachments/assets/d1912f49-0f49-4a77-ae15-e7237d34166a" />
 
 ---
 

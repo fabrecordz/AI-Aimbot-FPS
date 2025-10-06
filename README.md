@@ -1,35 +1,13 @@
 # 🧠 YoloV12 AI Aimbot - Lunar LITE
 
-**Lunar LITE** is built on top of the original [Lunar](https://github.com/zeyad-mansour/lunar) project.
+
 
 It features an updated triggerbot, modernized packages, and YOLOv12 support.
 
-<div align="center">
-
-<img src="https://ucarecdn.com/a90b3848-a54f-42ff-beab-6c07b5693a73/downloads.svg" alt="downloads" /><br>
-<a href="https://discord.gg/aiaimbot">
-  <img src="https://ucarecdn.com/50ea9c7c-7384-45bf-b8ee-1f8826b71bdd/lunar1.svg" alt="Join Discord" />
-</a>
-
-</div>
-
 ---
 
-## 🚀 Lunar V2 (Premium)
+## 🚀 Lunar V2 
 
-**Lunar V2** includes:
-
-- ✅ 25+ customizable settings  
-- ✅ Built-in UI  
-- ✅ Improved detection accuracy  
-- ✅ Supports **YOLOv8**, **YOLOv10**, **YOLOv12**, and **TensorRT**  
-- ✅ Xbox controller support
-- ✅ Logitech GHUB mouse input
-- ✅ Works on AMD and NVIDIA graphics cards
-
-[Download Lunar V2](https://gannonr.com/lunar)
-
-![Lunar V2 UI](https://github.com/user-attachments/assets/173ace44-2a46-45a3-aeba-5c2ce9c9e7b4)
 
 ---
 
@@ -112,9 +90,4 @@ python lunar.py collect_data
 
 ---
 
-## 💬 Discord Support
 
-Support is only **guaranteed** for **Lunar V2**.  
-Please don’t expect full help for the free **LITE** version.
-
-👉 [Join our Discord](https://discord.gg/aiaimbot)
